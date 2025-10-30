@@ -1,0 +1,12 @@
+/* ListingCard image slider animation */
+.animate-slide-in {
+  animation: slideInRightToLeft 0.5s forwards;
+}
+
+@keyframes slideInRightToLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
